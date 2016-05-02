@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Nancy Attribute Auth</title>
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        .navbar {
+            border-radius: 0;
+        }
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/auth">Auth</a></li>
+                    <li><a href="/admin">Admin</a></li>
+                    <li><a href="/debug">Debug</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+@RenderBody()
+</body>
+</html>
